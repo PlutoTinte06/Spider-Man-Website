@@ -1,0 +1,61 @@
+body{
+    background-image: url("../images/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.card{
+    margin-top: 1rem;
+}
+
+.left-card .card{
+    box-shadow: 1rem 1rem 1rem 0 black;
+}
+
+.right-card .card{
+    box-shadow: -1rem 1rem 1rem 0 black;
+}
+
+.card:hover {
+    width: 20rem;
+    img{
+        width: 20rem;
+    }
+}
+
+.card {
+    background: white;
+    transition: 1s;
+    border-radius: 1rem;
+    width: 18rem;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+img {
+    width: 18rem;
+    border-radius: 1rem;
+    transition: 1s;
+}
+
+.card a{
+    text-decoration: none;
+    color: white;
+    background: blue;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.card a:hover{
+    background: darkblue;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, serif;
+    background-image: url("../images/background-peter.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#peterImg {
+    animation: fadeIn ease-in-out 1s forwards;
+    margin-top: 11rem;
+    width: 85%;
+}
+
+#titleImg{
+    opacity: 0;
+    animation: fadeIn ease-in-out 1s forwards 0.75s;
+    margin-top: 18rem;
+    width: 85%;
+}
+
+#textcontainer{
+    margin-top: 12rem;
+    background: #FFDE00;
+    border: solid black 0.5rem;
+    box-shadow: 1rem 1rem 1rem 0 black;
+    width: 20%;
+    height: fit-content;
+    animation: fadeIn ease-in-out 1s forwards 1.25s;
+    opacity: 0;
+    font-family: "Comic Sans MS", sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.75rem;
+    font-style: italic;
+}
+
+.nav-textcolor a{
+    color: white;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 100%
+    }
+}

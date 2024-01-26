@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, serif;
+    margin-top: 4rem;
+}
+
+.nav {
+    position: fixed;
+    background-color: black;
+    overflow: hidden;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav a {
+    width: 11rem;
+    color: whitesmoke;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.nav a:not(a:last-child){
+    border-right: 1px solid lightgrey;
+}
+
+.bg-black{
+    background: black;
+}
+
+.nav-textcolor a{
+    color: white;
+}

@@ -1,0 +1,36 @@
+body{
+    background-image: url("../images/homepage-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+img{
+    margin-top: 6rem;
+    margin-right: 10rem;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+p{
+    margin-top: 8rem;
+    font-size: 8rem;
+    font-weight: bold;
+    color: white;
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out 0.5s forwards;
+    line-height: 10rem;
+}
+
+p span{
+    font-size: 13.5rem;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

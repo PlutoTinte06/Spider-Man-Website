@@ -1,0 +1,13 @@
+body{
+    background: darkred;
+    margin-top: 5rem;
+}
+
+p {
+    width: 35%;
+    font-size: 1.25rem;
+    background: white;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 10px 10px 5px;
+}
