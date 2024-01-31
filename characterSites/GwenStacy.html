@@ -2,29 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+          crossorigin="anonymous">
     <link href="GwenStacy.css" rel="stylesheet"/>
     <title>Gwen Stacy</title>
 </head>
 <body>
-<div class="nav">
-    <a href="../mainSite/spiderPeople.html"> 🠔 Back to Characters</a>
-</div>
-<div id="container">
-    <div id="centerMiles">
-        <img id="titleImg" src="../images/gwenstacy-title.webp" alt="gwen-title">
-        <img id="gwenImg" src="../images/gwenstacy-page.webp" alt="gwen">
+<nav class="navbar fixed-top navbar-expand-lg" data-bs-theme="dark">
+    <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav nav-textcolor">
+                <li class="nav-item">
+                    <a class="nav-link" href="../mainSite/spiderPeople.html">🠔 Back to Characters</a>
+                </li>
+            </ul>
+        </div>
     </div>
-    <div id="textcontainer">
-        <p>
-            Gwen Stacy is Ghost-Spider! In this world Peter Parker never got bitten by a spider.
-            After being bitten by a spider she developed spider-like powers. She was given a
-            costume and a set of web-shooters by retired crimefighter Janet van Dyne.
-            Gwen's influence also caused one of the biggest tragedies in her life. Her bullied best friend
-            Peter Parker, desperate to be special like his idol Spider-Woman, turned himself into the Lizard.
-            Spider-Woman was branded a criminal after fighting the Lizard, not knowing it's Peter and him dying
-            in the fight.
-        </p>
+</nav>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-4">
+            <img class="img-fluid" alt="gwen-title" id="titleImg" src="../images/gwenstacy-title.webp">
+        </div>
+        <div class="col-4">
+            <img class="img-fluid" alt="gwen" id="gwenImg" src="../images/gwenstacy-page.webp">
+        </div>
+        <div class="col-1" id="textcontainer">
+            <p>
+                Gwen Stacy is Ghost-Spider! In this world Peter Parker never got bitten by a spider.
+                After being bitten by a spider she developed spider-like powers. She was given a
+                costume and a set of web-shooters by retired crimefighter Janet van Dyne.
+                Gwen's influence also caused one of the biggest tragedies in her life. Her bullied best friend
+                Peter Parker, desperate to be special like his idol Spider-Woman, turned himself into the Lizard.
+                Spider-Woman was branded a criminal after fighting the Lizard, not knowing it's Peter and him dying
+                in the fight.
+            </p>
+        </div>
     </div>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 </html>

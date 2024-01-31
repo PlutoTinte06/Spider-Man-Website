@@ -7,58 +7,20 @@ body{
     background-attachment: fixed;
 }
 
-.nav {
-    position: fixed;
-    background-color: #fe0e35;
-    overflow: hidden;
-    width: 100%;
-    top: 0;
-    left: 0;
-}
-
-.nav a {
-    float: left;
-    width: 10rem;
-    color: whitesmoke;
-    text-align: center;
-    padding: 1rem;
-    text-decoration: none;
-    font-family: Arial, serif;
-}
-
-.nav a:hover {
-    background-color: #de0e30;
-    color: black;
-}
-
-#centerMiles {
-    display: flex;
-}
-
-#centerMiles #gwenImg{
-    animation: fadeIn ease-in-out 1s forwards;
-}
-
-#centerMiles #titleImg{
-    animation: fadeIn ease-in-out 1s forwards 0.6s;
+.nav-textcolor a {
+    color: white;
 }
 
 #gwenImg {
-    width: 45%;
-    justify-content: center;
     margin-top: 7rem;
-    margin-left: 2rem;
+    margin-left: 1.5rem;
+    animation: fadeIn ease-in-out 1s forwards;
 }
 
 #titleImg{
-    height: 10rem;
+    animation: fadeIn ease-in-out 1s forwards 0.6s;
     margin-top: 16rem;
-    margin-left: 1rem;
     opacity: 0;
-}
-
-#container{
-    display: flex;
 }
 
 #textcontainer{
@@ -67,20 +29,18 @@ body{
     border: solid turquoise 0.125rem;
     border-radius: 1rem;
     box-shadow: 1rem 1rem 1rem 0 black;
-    margin-right: 1.5rem;
-    width: 40%;
-    height: 50%;
-    float: right;
+    width: 27%;
+    height: fit-content;
+    padding: 0.75rem;
+    padding-bottom: 0;
     animation: fadeIn ease-in-out 1s forwards 1s;
     opacity: 0;
-}
-
-p{
-    margin: 1rem;
     color: darkmagenta;
     font-family: "Comic Sans MS", sans-serif;
     font-size: 1rem;
     font-weight: bold;
+    font-style: italic;
+    margin-left: 4rem;
 }
 
 @keyframes fadeIn {
