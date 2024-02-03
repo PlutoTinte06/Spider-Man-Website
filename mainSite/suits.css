@@ -1,3 +1,76 @@
 body{
     background: darkred;
+    margin-top: 6rem;
+}
+
+#classicSuit{
+    width: 42.3%;
+}
+
+#symbioteSuit{
+    width: 50%;
+}
+
+#ironSpider{
+    width: 37.45%;
+}
+
+#stealthSuit{
+    width: 28%;
+}
+
+#captainUniverse{
+    width: 44.85%;
+}
+
+#spiderArmor{
+    width: 27.6%;
+}
+
+#futureFoundation{
+    width: 28.1%;
+}
+
+#secretWar{
+    width: 33.1%;
+}
+
+#milesMorales{
+    width: 28.1%;
+}
+
+#miguelSuit{
+    width: 56.55%;
+}
+
+#raimiSuit{
+    width: 56.8%;
+}
+
+#tasm1{
+    width: 34.12%;
+}
+
+#tasm2{
+    width: 31.95%;
+}
+
+#finalSwing{
+    width: 28.7%;
+}
+
+#advancedSuit{
+    width: 75.7%;
+}
+
+div.carousel-caption > h5, p{
+    font-weight: bold;
+}
+
+.carousel-caption{
+    background: rgba(0,0,0,0.5);
+}
+
+img{
+    margin: 1.25rem;
 }
