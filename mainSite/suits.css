@@ -71,6 +71,20 @@ div.carousel-caption > h5, p{
     background: rgba(0,0,0,0.5);
 }
 
+.carousel{
+    animation: fadeIn ease-in-out 1s forwards;
+}
+
 img{
     margin: 1.25rem;
+}
+
+@keyframes fadeIn {
+    0%{
+        opacity: 0
+    }
+
+    100%{
+        opacity: 100%
+    }
 }
