@@ -4,10 +4,11 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    margin-top: 5rem;
 }
 
 .card{
-    margin-top: 1rem;
+    margin-bottom: 3rem;
 }
 
 .left-card .card{
@@ -22,6 +23,7 @@ body{
     width: 20rem;
     img{
         width: 20rem;
+        height: 29.5rem;
     }
 }
 
@@ -29,14 +31,15 @@ body{
     background: white;
     transition: 1s;
     border-radius: 1rem;
-    width: 18rem;
+    width: 18.5rem;
     animation: fadeIn 1s ease-in-out forwards;
 }
 
 img {
-    width: 18rem;
+    width: 18.5rem;
     border-radius: 1rem;
     transition: 1s;
+    height: 28rem;
 }
 
 .card a{
@@ -58,4 +61,8 @@ img {
     100% {
         opacity: 1;
     }
+}
+
+.card h5{
+    font-weight: bold;
 }
