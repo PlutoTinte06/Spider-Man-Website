@@ -24,7 +24,7 @@ body {
     margin-top: 12rem;
     background: #FFDE00;
     border: solid black 0.5rem;
-    box-shadow: 1rem 1rem 1rem 0 black;
+    box-shadow: 1rem 1rem 1rem black;
     width: 20%;
     height: fit-content;
     animation: fadeIn ease-in-out 1s forwards 1.25s;

@@ -28,7 +28,7 @@ body{
     margin-top: 10rem;
     background: white;
     border: solid black 0.125rem;
-    box-shadow: 1rem 1rem 1rem 0 black;
+    box-shadow: 1rem 1rem 1rem black;
     width: 27%;
     height: fit-content;
     padding: 0.75rem;

@@ -1,3 +1,40 @@
 body{
     background: darkred;
+    margin-top: 5rem;
+}
+
+div.row{
+    background-color: #d3d3d3;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 1rem;
+    border: solid black 0.125rem;
+    box-shadow: 1rem 1rem 1rem black;
+    margin-bottom: 4rem;
+}
+
+.left-img{
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.right-img{
+    margin-left: 3rem;
+}
+
+.left-text{
+    margin-top: 1.25rem;
+    margin-left: 4rem;
+}
+
+h6{
+    font-weight: bold;
+}
+
+h6 span{
+    font-weight: normal;
+}
+
+a.btn{
+    font-weight: bold;
 }
